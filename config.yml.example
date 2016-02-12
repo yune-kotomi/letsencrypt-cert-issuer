@@ -1,0 +1,12 @@
+---
+private_key: private_key.txt
+sites:
+- domain: www.example.com
+  wwwroot: /path/to/www.example.com/wwwroot
+  private: /path/to/www.example.com/private.pem
+  fullchain: /path/to/www.example.com/fullchain.pem
+
+- domain: www.example.net
+  wwwroot: /path/to/www.example.net/wwwroot
+  private: /path/to/www.example.net/private.pem
+  fullchain: /path/to/www.example.net/fullchain.pem
